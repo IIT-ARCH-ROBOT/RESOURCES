@@ -12,8 +12,6 @@ pwmValue = 0
 deviceList = []
 deviceDict = {}
 dictLength = 0
-# WHITELIST = ['90:8D:6C:C0:5A:DC']#Brett's iPhone
-# WHITELIST = ['74:a5:28:c0:5b:77']#Brett's Android
 
 def PacketHandler(pkt):
     if pkt.haslayer(Dot11):
